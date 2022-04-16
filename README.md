@@ -1,5 +1,5 @@
 # torrent2ipfs
-BitTorrent to IPFS bridge
+torrent2ipfs is a BitTorrent to IPFS bridge. It takes torrent files, downloads them with a torrent client and then adds the downloaded content to IPFS.
 
 Requires IPFS, Python3, qBittorrent.
 
