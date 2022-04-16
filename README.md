@@ -17,5 +17,21 @@ pip3 install ipfshttpclient
 pip3 install humanfriendly
 ```
 
+You'll also need to create a configuration file. Copy `.env.dist` to `.env` and edit it.
+
+You'll end up with something like this:
+```
+# Username
+username=zorlin
+# Password
+password=mysecurepassword
+# URL
+url=qbittorrent.nasa.gov
+# Port
+port=443
+# Label to use for adding and checking torrents
+label=torrent2ipfs
+```
+
 ## Usage
 Place torrents to "convert" into ingest/, then run `python3 main.py`.
